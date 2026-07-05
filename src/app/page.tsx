@@ -139,14 +139,14 @@ export default function LandingPage() {
         </section>
 
         {/* Hero Section */}
-        <section className="relative w-full min-h-screen flex flex-col lg:flex-row items-center justify-center py-20 px-6 md:pl-24 gap-12 max-w-7xl mx-auto">
-          <div className="flex-1 relative z-10 space-y-10 text-center lg:text-left">
+        <section className="relative w-full min-h-screen flex flex-col items-center justify-center py-20 px-6 gap-12 max-w-5xl mx-auto">
+          <div className="relative z-10 space-y-10 text-center">
             <motion.h2 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1 }}
-              className="text-6xl md:text-7xl font-extrabold tracking-tighter leading-[1.05]"
+              className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05]"
             >
               Mastery,<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-[#ff6b6b]">
@@ -159,7 +159,7 @@ export default function LandingPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.1 }}
-              className="text-xl md:text-2xl opacity-70 leading-relaxed font-medium max-w-2xl mx-auto lg:mx-0"
+              className="text-xl md:text-2xl opacity-70 leading-relaxed font-medium max-w-2xl mx-auto"
             >
               Designed for immediate, real-world application. Built for genuine learners, not certificate hunters.
             </motion.p>
@@ -169,7 +169,7 @@ export default function LandingPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.2 }}
-              className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4"
+              className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
             >
               <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20Map%20classes." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto text-center px-10 py-4 bg-brand-orange text-white rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors shadow-xl shadow-brand-orange/20">
                 Secure Your Slot
@@ -179,25 +179,6 @@ export default function LandingPage() {
               </a>
             </motion.div>
           </div>
-
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1.5 }}
-            className="flex-1 w-full relative aspect-[4/3] lg:aspect-square max-w-xl mx-auto hidden md:block"
-          >
-            <div className="absolute inset-0 bg-gradient-to-tr from-brand-orange/20 to-transparent rounded-[3rem] transform rotate-3 blur-2xl" />
-            <div className="relative w-full h-full rounded-[3rem] overflow-hidden border border-current/10 shadow-2xl">
-              <Image 
-                src="/hero.png" 
-                alt="English speaking environment" 
-                fill 
-                className="object-cover hover:scale-105 transition-transform duration-[10s]" 
-                priority 
-              />
-            </div>
-          </motion.div>
         </section>
 
                 {/* The Standard Section */}
