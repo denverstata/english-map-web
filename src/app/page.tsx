@@ -101,14 +101,19 @@ export default function LandingPage() {
       <main className="relative z-10 w-full">
         
         {/* Giant Logo Section */}
-        <section className="w-full h-screen flex flex-col items-center justify-center px-6 relative snap-start">
+        <section className="w-full h-screen flex flex-col items-center justify-center px-6 relative snap-start text-center">
           <motion.div 
-            initial={{ opacity: 0, scale: 0.8, filter: "blur(10px)" }}
+            initial={{ opacity: 0, scale: 0.9, filter: "blur(10px)" }}
             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            className="w-48 h-48 md:w-72 md:h-72 rounded-[3rem] overflow-hidden border border-white/10 shadow-2xl bg-white p-4"
+            className="flex flex-col items-center gap-4"
           >
-            <Image src="/logo.png" alt="English Map Logo" width={288} height={288} className="w-full h-full object-cover rounded-3xl" />
+            <h1 className="text-6xl md:text-8xl lg:text-[9rem] font-extrabold tracking-tighter leading-none text-brand-orange uppercase">
+              English Map
+            </h1>
+            <p className="text-2xl md:text-4xl font-bold opacity-70 tracking-widest uppercase mt-4">
+              Navigate Your English
+            </p>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0 }}
@@ -164,6 +169,16 @@ export default function LandingPage() {
               Designed for immediate, real-world application. Built for genuine learners, not certificate hunters.
             </motion.p>
 
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, delay: 0.15 }}
+              className="inline-block px-5 py-2.5 bg-brand-orange/10 text-brand-orange border border-brand-orange/20 rounded-full font-bold text-sm tracking-wide mb-2"
+            >
+              Premium experience, 30% more affordable than similar services.
+            </motion.div>
+
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -181,47 +196,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-                {/* The Standard Section */}
-        <section id="standard" className="py-32 px-6 md:pl-24 relative">
-          <div className="max-w-5xl mx-auto text-center">
-            <motion.h2 
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 1 }}
-              className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-16 tracking-tight"
-            >
-              The Standard
-            </motion.h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
-              {[
-                { title: "Immersive Learning", desc: "Activity-driven architecture. Zero one-way lectures." },
-                { title: "Practical Application", desc: "In-class execution using relevant, real-world tools." },
-                { title: "World-Class Experience", desc: "Methodologies calibrated to top-tier global university standards." },
-                { title: "Cost-Effective", desc: "Premium instruction at a 30% higher market efficiency." },
-                { title: "Comprehensive", desc: "Live sessions, proprietary modules, and hands-on guidance." }
-              ].map((item, i) => (
-                <motion.div 
-                  key={i}
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: i * 0.1 }}
-                  className="bg-black/5 border border-current/5 rounded-[32px] p-8 md:p-10 shadow-sm hover:shadow-xl transition-shadow flex flex-col"
-                >
-                  <div className="w-12 h-12 rounded-full bg-brand-orange/10 flex items-center justify-center mb-6">
-                    <CheckCircle2 className="w-6 h-6 text-brand-orange" />
-                  </div>
-                  <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-                  <p className="opacity-70 font-medium leading-relaxed flex-1">{item.desc}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Available Classes Roster */}
+                        {/* Available Classes Roster */}
         <section id="classes" className="py-32 px-6 md:pl-24">
           <div className="max-w-7xl mx-auto">
             <div className="mb-20 text-center">
@@ -241,64 +216,74 @@ export default function LandingPage() {
                 transition={{ duration: 1, delay: 0.1 }}
                 className="text-2xl opacity-60 font-medium max-w-2xl mx-auto"
               >
-                Modular architecture for specific goals.
+                Designed for immediate impact. Choose your path.
               </motion.p>
             </div>
 
-            <motion.div 
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 1 }}
-              className="bg-brand-astronaut text-white rounded-[40px] p-10 md:p-16 relative overflow-hidden shadow-2xl flex flex-col group max-w-5xl mx-auto"
-            >
-              <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-brand-orange/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-              <div className="relative z-10 flex flex-col lg:flex-row gap-12">
-                <div className="flex-1">
-                  <div className="inline-block px-5 py-2 bg-brand-orange text-white rounded-full text-xs font-bold tracking-widest uppercase mb-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* English for Undergraduate */}
+              <motion.div 
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+                className="bg-brand-astronaut text-white rounded-[40px] p-10 relative overflow-hidden shadow-2xl flex flex-col group"
+              >
+                <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-brand-orange/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                <div className="relative z-10 flex-1 flex flex-col">
+                  <div className="inline-block px-5 py-2 bg-brand-orange text-white rounded-full text-xs font-bold tracking-widest uppercase mb-8 self-start">
                     Featured Class
                   </div>
-                  <h3 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">#1 English for Undergraduate</h3>
-                  <p className="text-xl opacity-80 mb-8 leading-relaxed font-medium">
-                    Experiential learning tailored for academic integration and daily university life.
+                  <h3 className="text-4xl font-extrabold mb-4 tracking-tight">#1 English for Undergraduate</h3>
+                  <p className="text-lg opacity-80 mb-6 font-medium">
+                    Experiential learning tailored for university students. Learn campus vocabularies, write academic emails, and boost your confidence in group discussions.
                   </p>
                   
-                  <div className="space-y-4 mb-8">
-                    <div className="flex gap-4 items-start">
-                      <CheckCircle2 className="w-6 h-6 text-brand-orange shrink-0 mt-1" />
-                      <div>
-                        <strong className="block text-lg">Format</strong>
-                        <span className="opacity-80">100% Online (Flexible evening schedules) | 60-90 mins per session | Hands-on modules | Limited recording access.</span>
-                      </div>
-                    </div>
-                    <div className="flex gap-4 items-start">
-                      <CheckCircle2 className="w-6 h-6 text-brand-orange shrink-0 mt-1" />
-                      <div>
-                        <strong className="block text-lg">Purchase Options</strong>
-                        <span className="opacity-80">Single session, full 8-session bundle, or module-only access.</span>
-                      </div>
-                    </div>
+                  <div className="bg-white/5 rounded-2xl p-6 mb-8 border border-white/10 flex-1">
+                    <ul className="space-y-4 text-sm font-medium opacity-90">
+                      <li><strong className="text-brand-orange block mb-1">Pricing:</strong> 8 Sessions Bundle: Rp 299.000<br/>Single Session: Rp 49.000</li>
+                      <li><strong className="text-brand-orange block mb-1">Format:</strong> 100% Online | 60-90 mins/session</li>
+                      <li><strong className="text-brand-orange block mb-1">Syllabus Highlights:</strong> Learn Campus Vocabularies, Professional Emails, Diplomatic Conflict Resolution, Group Discussions, and Academic Networking.</li>
+                      <li className="pt-2"><strong className="text-brand-orange">Module Only?</strong> Consult via WhatsApp.</li>
+                    </ul>
                   </div>
-                  <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20for%20Undergraduate%20Class." target="_blank" rel="noopener noreferrer" className="inline-block bg-brand-orange text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors shadow-lg">
+                  <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20for%20Undergraduate%20Class." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-orange text-white py-4 rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors shadow-lg">
                     Secure Your Slot
                   </a>
                 </div>
+              </motion.div>
 
-                <div className="flex-1 bg-white/5 rounded-3xl p-8 border border-white/10">
-                  <h4 className="text-2xl font-bold mb-6">The Syllabus</h4>
-                  <ul className="space-y-4 text-sm md:text-base font-medium opacity-90">
-                    <li><strong className="text-brand-orange">1. Terminology Mastery:</strong> Application within Indonesian higher education.</li>
-                    <li><strong className="text-brand-orange">2. Verbal Communication:</strong> Professional discourse with peers and faculty.</li>
-                    <li><strong className="text-brand-orange">3. Non-Verbal Communication:</strong> Digital ethics and written correspondence.</li>
-                    <li><strong className="text-brand-orange">4. Conflict Resolution:</strong> Diplomatic frameworks and negotiation.</li>
-                    <li><strong className="text-brand-orange">5. Group Discussion:</strong> Analytical facilitation and evidence-based argumentation.</li>
-                    <li><strong className="text-brand-orange">6. Networking:</strong> Strategic rapport-building and professional small talk.</li>
-                    <li><strong className="text-brand-orange">7. Academic Integration:</strong> Synthesis of a cohesive academic identity.</li>
-                    <li><strong className="text-brand-orange">8. Expert Class:</strong> Comprehensive application through multifaceted case studies.</li>
-                  </ul>
+              {/* Private Speaking Class */}
+              <motion.div 
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1, delay: 0.2 }}
+                className="bg-white text-brand-astronaut border border-brand-astronaut/10 rounded-[40px] p-10 relative overflow-hidden shadow-xl flex flex-col group"
+              >
+                <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-brand-astronaut/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                <div className="relative z-10 flex-1 flex flex-col">
+                  <div className="inline-block px-5 py-2 bg-brand-astronaut/5 text-brand-astronaut border border-brand-astronaut/10 rounded-full text-xs font-bold tracking-widest uppercase mb-8 self-start">
+                    Exclusive
+                  </div>
+                  <h3 className="text-4xl font-extrabold mb-4 tracking-tight">Private Speaking Class</h3>
+                  <p className="text-lg opacity-70 mb-6 font-medium">
+                    1-on-1 private coaching with <a href="https://www.instagram.com/raihanaeka/" target="_blank" rel="noopener noreferrer" className="text-brand-orange hover:underline font-bold">@raihanaeka</a> to break your mental block and drastically improve fluency.
+                  </p>
+                  
+                  <div className="bg-black/5 rounded-2xl p-6 mb-8 border border-black/5 flex-1">
+                    <ul className="space-y-4 text-sm font-medium opacity-80">
+                      <li><strong className="text-brand-astronaut block mb-1">Pricing:</strong> Full 8 Sessions: Rp 799.000</li>
+                      <li><strong className="text-brand-astronaut block mb-1">Format:</strong> 8 Sessions | 60 mins/session</li>
+                      <li><strong className="text-brand-astronaut block mb-1">Focus:</strong> Intensive speaking practice, personalized feedback, and confidence building in a judgment-free environment.</li>
+                    </ul>
+                  </div>
+                  <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Private%20Class%20with%20%40raihanaeka.%20Book%20and%20schedule%20now." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-astronaut text-white py-4 rounded-full font-bold text-lg hover:bg-[#002230] transition-colors shadow-lg">
+                    Book & Schedule Now
+                  </a>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         </section>
 
@@ -319,11 +304,11 @@ export default function LandingPage() {
             </div>
             
             <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-              <TestimonialCard text="A paradigm shift in learning. The focus on evidence-based argumentation and diplomatic frameworks directly elevated my academic standing. Immediate application, zero filler." author="Arif W." role="Undergraduate Student" />
-              <TestimonialCard text="Calibrated to top-tier university standards. The practical execution in classes mirrors real-world environments perfectly." author="Diana P." role="University Alumni" />
-              <TestimonialCard text="No filler, just pure application. The methodologies are exact, structured, and incredibly effective for professional discourse." author="Rizky M." role="Consultant" />
-              <TestimonialCard text="The strategic rapport-building and professional small talk modules were a game-changer for my networking skills." author="Sarah T." role="Business Analyst" />
-              <TestimonialCard text="Activity-driven from minute one. This is how language should be taught. 100% focused on immediate, real-world application." author="Kevin L." role="Software Engineer" />
+              <TestimonialCard text="The class is fun and comfortable, so I'm more confident to speak without fear of making mistakes. I also gained many new vocabularies and better understand how to use everyday English." author="M******ad L****y" role="Employee" />
+              <TestimonialCard text="The class is exciting and makes me more confident in speaking English. The atmosphere is comfortable, no fear of being judged, and the pronunciation sessions are really helpful." author="F*****ah" role="Undergraduate Student" />
+              <TestimonialCard text="The class is super fun! It's interactive, lots of chances to share in English, making me more confident to speak. Plus, I met friends with positive vibes. Highly recommended!" author="N****ah H****ta" role="Undergraduate Student" />
+              <TestimonialCard text="The class is fun and interactive! There's always a chance to speak and ask questions, boosting my confidence. Happy to make new friends too. Thank you, 90/100!" author="M******ad H***b H****ad" role="Employee" />
+              <TestimonialCard text="The class is super fun and makes me happy! The tutor is nice and the teaching method is enjoyable. I learned many new words and feel more confident to practice my English. Thank you!" author="K*****ar" role="Elementary Student" />
             </div>
           </div>
         </section>
@@ -383,7 +368,7 @@ export default function LandingPage() {
               />
               <FaqItem 
                 question="Who is this designed for?" 
-                answer="Genuine learners seeking tangible competency, not just certificates. The 'English for Undergraduate' class is specifically tailored for students aiming to master academic integration and professional discourse." 
+                answer="Genuine learners seeking tangible competency, not just certificates. Our classes are specifically tailored for students and professionals aiming to master professional discourse and build speaking confidence." 
               />
               <FaqItem 
                 question="What are the pricing and access options?" 
