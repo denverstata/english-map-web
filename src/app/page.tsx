@@ -91,7 +91,7 @@ export default function LandingPage() {
             <a href="#empathy" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">Metode</a>
             <a href="#program" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">Program</a>
             <a href="#faq" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">FAQ</a>
-            <a href="https://wa.me/62881011617077" target="_blank" rel="noopener noreferrer" className="bg-brand-orange text-white py-2.5 px-6 rounded-full text-sm font-bold hover:bg-[#e09150] transition-colors shadow-lg shadow-brand-orange/20">
+            <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20Map%20classes." target="_blank" rel="noopener noreferrer" className="bg-brand-orange text-white py-2.5 px-6 rounded-full text-sm font-bold hover:bg-[#e09150] transition-colors shadow-lg shadow-brand-orange/20">
               Mulai Bicara
             </a>
           </div>
@@ -405,7 +405,7 @@ export default function LandingPage() {
                   </ul>
                 </div>
                 <div className="relative z-10 mt-auto pt-8 border-t border-white/10">
-                  <a href="https://wa.me/62881011617077?text=Halo%20min,%20aku%20tertarik%20sama%20Private%201:1%20Class%20nih" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-orange text-white py-5 rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors">
+                  <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20Private%201%3A1%20Class." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-orange text-white py-5 rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors">
                     Mulai Private
                   </a>
                 </div>
@@ -436,7 +436,7 @@ export default function LandingPage() {
                   </ul>
                 </div>
                 <div className="relative z-10 mt-auto pt-8 border-t border-brand-astronaut/10">
-                  <a href="https://wa.me/62881011617077?text=Halo%20min,%20aku%20mau%20ikutan%20Semi%20Private%20Class%20dong" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-astronaut text-white py-5 rounded-full font-bold text-lg hover:bg-[#002230] transition-colors">
+                  <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20Semi%20Private%20Class." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-astronaut text-white py-5 rounded-full font-bold text-lg hover:bg-[#002230] transition-colors">
                     Mulai Bersama
                   </a>
                 </div>
@@ -560,7 +560,7 @@ export default function LandingPage() {
                 
                 <div className="flex flex-col items-center justify-center gap-6">
                   <a 
-                    href="https://wa.me/62881011617077?text=Halo%20English%20Map,%20mau%20tanya-tanya%20dulu%20dong%20soal%20kelasnya" 
+                    href="https://wa.me/62881011617077?text=Hi%20English%20Map%2C%20I%20want%20to%20ask%20about%20the%20classes." 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="group inline-flex items-center justify-center gap-3 bg-brand-astronaut text-white px-10 py-5 rounded-full text-xl font-bold hover:bg-[#002230] hover:-translate-y-1 transition-all duration-300 shadow-xl"
@@ -595,7 +595,7 @@ export default function LandingPage() {
             <a href="https://www.instagram.com/englishmap.id/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange transition-colors flex items-center gap-2">
               <InstagramIcon className="w-5 h-5" /> Instagram
             </a>
-            <a href="https://wa.me/62881011617077" className="hover:text-brand-orange transition-colors">WhatsApp</a>
+            <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20Map%20classes." className="hover:text-brand-orange transition-colors">WhatsApp</a>
           </div>
           <div className="text-sm opacity-50 font-medium">
             © {new Date().getFullYear()} English Map Indonesia.
