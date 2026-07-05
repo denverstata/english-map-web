@@ -88,7 +88,7 @@ export default function LandingPage() {
           </motion.div>
 
           <div className="hidden md:flex items-center gap-10">
-            <a href="#standard" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">The Standard</a>
+
             <a href="#classes" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">Classes</a>
             <a href="#faq" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">FAQ</a>
             <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20Map%20classes." target="_blank" rel="noopener noreferrer" className="bg-brand-orange text-white py-2.5 px-6 rounded-full text-sm font-bold hover:bg-[#e09150] transition-colors shadow-lg shadow-brand-orange/20">
