@@ -240,12 +240,35 @@ export default function LandingPage() {
                   </p>
                   
                   <div className="bg-white/5 rounded-2xl p-6 mb-8 border border-white/10 flex-1">
-                    <ul className="space-y-4 text-sm font-medium opacity-90">
-                      <li><strong className="text-brand-orange block mb-1">Pricing:</strong> 8 Sessions Bundle: Rp 299.000<br/>Single Session: Rp 49.000</li>
-                      <li><strong className="text-brand-orange block mb-1">Format:</strong> 100% Online | 60-90 mins/session</li>
-                      <li><strong className="text-brand-orange block mb-1">Syllabus Highlights:</strong> Learn Campus Vocabularies, Professional Emails, Diplomatic Conflict Resolution, Group Discussions, and Academic Networking.</li>
-                      <li className="pt-2"><strong className="text-brand-orange">Module Only?</strong> Consult via WhatsApp.</li>
-                    </ul>
+                    <div className="space-y-6 text-base font-medium opacity-90">
+                      <div>
+                        <strong className="text-brand-orange block mb-2 text-lg">Pricing & Access:</strong> 
+                        <div className="flex flex-col gap-2">
+                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20the%208%20Sessions%20Bundle%20for%20Undergraduate." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">8 Sessions Bundle: Rp 299.000</a>
+                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Single%20Session%20for%20Undergraduate." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">Single Session: Rp 49.000</a>
+                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20consult%20about%20the%20Module%20Only." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">Module Only: Consult via WhatsApp</a>
+                        </div>
+                      </div>
+
+                      <div>
+                        <strong className="text-brand-orange block mb-2 text-lg">Format:</strong> 
+                        <p>100% Online | 60-90 mins/session</p>
+                      </div>
+
+                      <div>
+                        <strong className="text-brand-orange block mb-3 text-lg">Syllabus:</strong> 
+                        <ul className="space-y-2 list-disc list-outside ml-4 opacity-90 text-sm md:text-base leading-relaxed">
+                          <li><strong className="text-brand-orange">Terminology Mastery:</strong> Application in higher education.</li>
+                          <li><strong className="text-brand-orange">Verbal Communication:</strong> Discourse with peers & faculty.</li>
+                          <li><strong className="text-brand-orange">Non-Verbal:</strong> Digital ethics & correspondence.</li>
+                          <li><strong className="text-brand-orange">Conflict Resolution:</strong> Diplomatic frameworks.</li>
+                          <li><strong className="text-brand-orange">Group Discussion:</strong> Evidence-based argumentation.</li>
+                          <li><strong className="text-brand-orange">Networking:</strong> Strategic rapport-building.</li>
+                          <li><strong className="text-brand-orange">Academic Integration:</strong> Synthesis of identity.</li>
+                          <li><strong className="text-brand-orange">Expert Class:</strong> Comprehensive case studies.</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                   <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20for%20Undergraduate%20Class." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-orange text-white py-4 rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors shadow-lg">
                     Secure Your Slot
@@ -272,11 +295,24 @@ export default function LandingPage() {
                   </p>
                   
                   <div className="bg-black/5 rounded-2xl p-6 mb-8 border border-black/5 flex-1">
-                    <ul className="space-y-4 text-sm font-medium opacity-80">
-                      <li><strong className="text-brand-astronaut block mb-1">Pricing:</strong> Full 8 Sessions: Rp 799.000</li>
-                      <li><strong className="text-brand-astronaut block mb-1">Format:</strong> 8 Sessions | 60 mins/session</li>
-                      <li><strong className="text-brand-astronaut block mb-1">Focus:</strong> Intensive speaking practice, personalized feedback, and confidence building in a judgment-free environment.</li>
-                    </ul>
+                    <div className="space-y-6 text-base font-medium opacity-80">
+                      <div>
+                        <strong className="text-brand-astronaut block mb-2 text-lg">Pricing & Access:</strong> 
+                        <div className="flex flex-col gap-2">
+                          <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Private%20Class%20with%20%40raihanaeka.%20Book%20and%20schedule%20now." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-black/30 transition-colors">Full 8 Sessions: Rp 799.000</a>
+                        </div>
+                      </div>
+                      
+                      <div>
+                        <strong className="text-brand-astronaut block mb-2 text-lg">Format:</strong> 
+                        <p>8 Sessions | 60 mins/session</p>
+                      </div>
+                      
+                      <div>
+                        <strong className="text-brand-astronaut block mb-2 text-lg">Custom Syllabus:</strong> 
+                        <p className="leading-relaxed">100% customizable based on your goals. Focus purely on intensive speaking practice, personalized feedback, and confidence building in a judgment-free environment.</p>
+                      </div>
+                    </div>
                   </div>
                   <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Private%20Class%20with%20%40raihanaeka.%20Book%20and%20schedule%20now." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-astronaut text-white py-4 rounded-full font-bold text-lg hover:bg-[#002230] transition-colors shadow-lg">
                     Book & Schedule Now
