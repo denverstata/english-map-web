@@ -153,9 +153,9 @@ export default function LandingPage() {
               transition={{ duration: 1 }}
               className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05]"
             >
-              Kemahiran,<br />
+              Mahir,<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-[#ff6b6b]">
-                Dipercepat
+                Lebih Cepat
               </span>
             </motion.h2>
             
