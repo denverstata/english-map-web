@@ -83,7 +83,7 @@ export default function LandingPage() {
               animate={{ opacity: scrollY.get() > 50 ? 1 : 0, height: scrollY.get() > 50 ? "auto" : 0 }}
               className="text-[10px] font-bold text-brand-orange uppercase tracking-[0.2em] mt-1 ml-[52px] hidden md:block"
             >
-              Navigate Your English
+              Navigasi Bahasa Inggrismu
             </motion.span>
           </motion.div>
 
@@ -92,7 +92,7 @@ export default function LandingPage() {
             <a href="#classes" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">Classes</a>
             <a href="#faq" className="text-sm font-bold opacity-70 hover:opacity-100 hover:text-brand-orange transition-colors">FAQ</a>
             <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20Map%20classes." target="_blank" rel="noopener noreferrer" className="bg-brand-orange text-white py-2.5 px-6 rounded-full text-sm font-bold hover:bg-[#e09150] transition-colors shadow-lg shadow-brand-orange/20">
-              Secure Your Slot
+              Amankan Slot Anda
             </a>
           </div>
         </nav>
@@ -112,7 +112,7 @@ export default function LandingPage() {
               English Map
             </h1>
             <p className="text-2xl md:text-4xl font-bold opacity-70 tracking-widest uppercase mt-4">
-              Navigate Your English
+              Navigasi Bahasa Inggrismu
             </p>
           </motion.div>
           <motion.div 
@@ -153,9 +153,9 @@ export default function LandingPage() {
               transition={{ duration: 1 }}
               className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05]"
             >
-              Mastery,<br />
+              Kemahiran,<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-[#ff6b6b]">
-                Accelerated
+                Dipercepat
               </span>
             </motion.h2>
             
@@ -166,18 +166,10 @@ export default function LandingPage() {
               transition={{ duration: 1, delay: 0.1 }}
               className="text-xl md:text-2xl opacity-70 leading-relaxed font-medium max-w-2xl mx-auto"
             >
-              Designed for immediate, real-world application. Built for genuine learners, not certificate hunters.
+              Dirancang untuk aplikasi dunia nyata. Dibuat bagi mereka yang benar-benar ingin belajar, bukan sekadar pemburu sertifikat.
             </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 1, delay: 0.15 }}
-              className="inline-block px-5 py-2.5 bg-brand-orange/10 text-brand-orange border border-brand-orange/20 rounded-full font-bold text-sm tracking-wide mb-2"
-            >
-              Premium experience, 30% more affordable than similar services.
-            </motion.div>
+
 
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
@@ -187,16 +179,16 @@ export default function LandingPage() {
               className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
             >
               <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20Map%20classes." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto text-center px-10 py-4 bg-brand-orange text-white rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors shadow-xl shadow-brand-orange/20">
-                Secure Your Slot
+                Amankan Slot Anda
               </a>
               <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20Map%20classes." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto text-center px-10 py-4 bg-transparent text-current rounded-full font-bold text-lg border-2 border-current/20 hover:bg-current/5 transition-colors flex items-center justify-center gap-2">
-                Consult via WhatsApp
+                Konsultasi via WhatsApp
               </a>
             </motion.div>
           </div>
         </section>
 
-                        {/* Available Classes Roster */}
+                        {/* Kelas Tersedia Roster */}
         <section id="classes" className="py-32 px-6 md:pl-24">
           <div className="max-w-7xl mx-auto">
             <div className="mb-20 text-center">
@@ -207,7 +199,7 @@ export default function LandingPage() {
                 transition={{ duration: 1 }}
                 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6"
               >
-                Available Classes
+                Kelas Tersedia
               </motion.h2>
               <motion.p 
                 initial={{ opacity: 0, y: 40 }}
@@ -216,7 +208,7 @@ export default function LandingPage() {
                 transition={{ duration: 1, delay: 0.1 }}
                 className="text-2xl opacity-60 font-medium max-w-2xl mx-auto"
               >
-                Designed for immediate impact. Choose your path.
+                Dirancang untuk hasil nyata. Pilih jalur Anda.
               </motion.p>
             </div>
 
@@ -232,46 +224,47 @@ export default function LandingPage() {
                 <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-brand-orange/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                 <div className="relative z-10 flex-1 flex flex-col">
                   <div className="inline-block px-5 py-2 bg-brand-orange text-white rounded-full text-xs font-bold tracking-widest uppercase mb-8 self-start">
-                    Featured Class
+                    Kelas Pilihan
                   </div>
                   <h3 className="text-4xl font-extrabold mb-4 tracking-tight">#1 English for Undergraduate</h3>
                   <p className="text-lg opacity-80 mb-6 font-medium">
-                    Experiential learning tailored for university students. Learn campus vocabularies, write academic emails, and boost your confidence in group discussions.
+                    Pembelajaran praktis yang dirancang khusus untuk mahasiswa. Kuasai kosakata kampus, tulis email akademik, dan tingkatkan kepercayaan diri dalam diskusi kelompok.
                   </p>
+                  <div className="inline-block px-4 py-2 bg-brand-orange/10 text-brand-orange border border-brand-orange/20 rounded-lg font-bold text-sm tracking-wide mb-6">Pengalaman premium, 30% lebih terjangkau dari layanan serupa.</div>
                   
                   <div className="bg-white/5 rounded-2xl p-6 mb-8 border border-white/10 flex-1">
                     <div className="space-y-6 text-base font-medium opacity-90">
                       <div>
-                        <strong className="text-brand-orange block mb-2 text-lg">Pricing & Access:</strong> 
+                        <strong className="text-brand-orange block mb-2 text-lg">Harga & Akses:</strong> 
                         <div className="flex flex-col gap-2">
-                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20the%208%20Sessions%20Bundle%20for%20Undergraduate." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">8 Sessions Bundle: Rp 299.000</a>
-                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Single%20Session%20for%20Undergraduate." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">Single Session: Rp 49.000</a>
-                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20consult%20about%20the%20Module%20Only." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">Module Only: Consult via WhatsApp</a>
+                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20the%208%20Sessions%20Bundle%20for%20Undergraduate." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">Paket 8 Sesi: Rp 299.000</a>
+                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Single%20Session%20for%20Undergraduate." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">Sesi Satuan: Rp 49.000</a>
+                           <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20consult%20about%20the%20Module%20Only." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-white/30 transition-colors">Hanya Modul: Konsultasi via WhatsApp</a>
                         </div>
                       </div>
 
                       <div>
                         <strong className="text-brand-orange block mb-2 text-lg">Format:</strong> 
-                        <p>100% Online | 60-90 mins/session</p>
+                        <p>100% Online | 60-90 menit/sesi</p>
                       </div>
 
                       <div>
-                        <strong className="text-brand-orange block mb-3 text-lg">Syllabus:</strong> 
+                        <strong className="text-brand-orange block mb-3 text-lg">Silabus:</strong> 
                         <ul className="space-y-2 list-disc list-outside ml-4 opacity-90 text-sm md:text-base leading-relaxed">
-                          <li><strong className="text-brand-orange">Terminology Mastery:</strong> Application in higher education.</li>
-                          <li><strong className="text-brand-orange">Verbal Communication:</strong> Discourse with peers & faculty.</li>
-                          <li><strong className="text-brand-orange">Non-Verbal:</strong> Digital ethics & correspondence.</li>
-                          <li><strong className="text-brand-orange">Conflict Resolution:</strong> Diplomatic frameworks.</li>
-                          <li><strong className="text-brand-orange">Group Discussion:</strong> Evidence-based argumentation.</li>
-                          <li><strong className="text-brand-orange">Networking:</strong> Strategic rapport-building.</li>
-                          <li><strong className="text-brand-orange">Academic Integration:</strong> Synthesis of identity.</li>
-                          <li><strong className="text-brand-orange">Expert Class:</strong> Comprehensive case studies.</li>
+                          <li><strong className="text-brand-orange">Penguasaan Kosakata:</strong> Aplikasi di pendidikan tinggi.</li>
+                          <li><strong className="text-brand-orange">Komunikasi Verbal:</strong> Diskusi dengan rekan & dosen.</li>
+                          <li><strong className="text-brand-orange">Non-Verbal:</strong> Etika digital & korespondensi.</li>
+                          <li><strong className="text-brand-orange">Resolusi Konflik:</strong> Kerangka kerja diplomatis.</li>
+                          <li><strong className="text-brand-orange">Diskusi Kelompok:</strong> Argumentasi berbasis data.</li>
+                          <li><strong className="text-brand-orange">Networking:</strong> Membangun relasi strategis.</li>
+                          <li><strong className="text-brand-orange">Integrasi Akademik:</strong> Sintesis identitas.</li>
+                          <li><strong className="text-brand-orange">Kelas Pakar:</strong> Studi kasus komprehensif.</li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20ask%20about%20the%20English%20for%20Undergraduate%20Class." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-orange text-white py-4 rounded-full font-bold text-lg hover:bg-[#e09150] transition-colors shadow-lg">
-                    Secure Your Slot
+                    Amankan Slot Anda
                   </a>
                 </div>
               </motion.div>
@@ -287,35 +280,35 @@ export default function LandingPage() {
                 <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-brand-astronaut/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                 <div className="relative z-10 flex-1 flex flex-col">
                   <div className="inline-block px-5 py-2 bg-brand-astronaut/5 text-brand-astronaut border border-brand-astronaut/10 rounded-full text-xs font-bold tracking-widest uppercase mb-8 self-start">
-                    Exclusive
+                    Eksklusif
                   </div>
                   <h3 className="text-4xl font-extrabold mb-4 tracking-tight">Private Speaking Class</h3>
                   <p className="text-lg opacity-70 mb-6 font-medium">
-                    1-on-1 private coaching with <a href="https://www.instagram.com/raihanaeka/" target="_blank" rel="noopener noreferrer" className="text-brand-orange hover:underline font-bold">@raihanaeka</a> to break your mental block and drastically improve fluency.
+                    Pelatihan privat 1-on-1 bersama <a href="https://www.instagram.com/raihanaeka/" target="_blank" rel="noopener noreferrer" className="text-brand-orange hover:underline font-bold">@raihanaeka</a> untuk menghancurkan mental block Anda dan meningkatkan kefasihan secara drastis.
                   </p>
                   
                   <div className="bg-black/5 rounded-2xl p-6 mb-8 border border-black/5 flex-1">
                     <div className="space-y-6 text-base font-medium opacity-80">
                       <div>
-                        <strong className="text-brand-astronaut block mb-2 text-lg">Pricing & Access:</strong> 
+                        <strong className="text-brand-astronaut block mb-2 text-lg">Harga & Akses:</strong> 
                         <div className="flex flex-col gap-2">
-                          <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Private%20Class%20with%20%40raihanaeka.%20Book%20and%20schedule%20now." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-black/30 transition-colors">Full 8 Sessions: Rp 799.000</a>
+                          <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Private%20Class%20with%20%40raihanaeka.%20Book%20and%20schedule%20now." target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange underline underline-offset-4 decoration-black/30 transition-colors">Paket Penuh 8 Sesi: Rp 799.000</a>
                         </div>
                       </div>
                       
                       <div>
                         <strong className="text-brand-astronaut block mb-2 text-lg">Format:</strong> 
-                        <p>8 Sessions | 60 mins/session</p>
+                        <p>8 Sessions | 60 menit/sesi</p>
                       </div>
                       
                       <div>
-                        <strong className="text-brand-astronaut block mb-2 text-lg">Custom Syllabus:</strong> 
-                        <p className="leading-relaxed">100% customizable based on your goals. Focus purely on intensive speaking practice, personalized feedback, and confidence building in a judgment-free environment.</p>
+                        <strong className="text-brand-astronaut block mb-2 text-lg">Custom Silabus:</strong> 
+                        <p className="leading-relaxed">100% dapat disesuaikan dengan tujuan Anda. Fokus murni pada praktik berbicara intensif, umpan balik personal, dan membangun kepercayaan diri tanpa takut dihakimi.</p>
                       </div>
                     </div>
                   </div>
                   <a href="https://wa.me/62881011617077?text=Hi%2C%20I%20want%20to%20book%20a%20Private%20Class%20with%20%40raihanaeka.%20Book%20and%20schedule%20now." target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-brand-astronaut text-white py-4 rounded-full font-bold text-lg hover:bg-[#002230] transition-colors shadow-lg">
-                    Book & Schedule Now
+                    Pesan & Jadwalkan Sekarang
                   </a>
                 </div>
               </motion.div>
@@ -334,17 +327,17 @@ export default function LandingPage() {
                 transition={{ duration: 1 }}
                 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6"
               >
-                Verified Results
+                Hasil Nyata
               </motion.h2>
-              <p className="text-2xl opacity-70 font-medium">Professional testimonials from genuine learners</p>
+              <p className="text-2xl opacity-70 font-medium">Testimoni langsung dari para pembelajar sejati.</p>
             </div>
             
             <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-              <TestimonialCard text="The class is fun and comfortable, so I'm more confident to speak without fear of making mistakes. I also gained many new vocabularies and better understand how to use everyday English." author="M******ad L****y" role="Employee" />
-              <TestimonialCard text="The class is exciting and makes me more confident in speaking English. The atmosphere is comfortable, no fear of being judged, and the pronunciation sessions are really helpful." author="F*****ah" role="Undergraduate Student" />
-              <TestimonialCard text="The class is super fun! It's interactive, lots of chances to share in English, making me more confident to speak. Plus, I met friends with positive vibes. Highly recommended!" author="N****ah H****ta" role="Undergraduate Student" />
-              <TestimonialCard text="The class is fun and interactive! There's always a chance to speak and ask questions, boosting my confidence. Happy to make new friends too. Thank you, 90/100!" author="M******ad H***b H****ad" role="Employee" />
-              <TestimonialCard text="The class is super fun and makes me happy! The tutor is nice and the teaching method is enjoyable. I learned many new words and feel more confident to practice my English. Thank you!" author="K*****ar" role="Elementary Student" />
+              <TestimonialCard text="Kelasnya seru dan nyaman, jadi aku lebih pede buat speaking tanpa takut salah. Aku juga dapat banyak kosakata baru dan lebih paham cara pakai bahasa Inggris sehari-hari." author="Muhammad Luthfy" role="Employee" />
+              <TestimonialCard text="Kelasnya seru dan bikin aku lebih pede buat speaking English. Suasananya nyaman, nggak takut di-judge, dan sesi pronunciation-nya benar-benar membantu." author="Fatimah" role="Undergraduate Student" />
+              <TestimonialCard text="Seru banget kelasnya! Interaktif, banyak kesempatan buat sharing pakai bahasa Inggris, jadi makin pede buat speaking. Ditambah ketemu teman-teman yang positif vibes. Recommended banget!" author="Nailah Hasita" role="Undergraduate Student" />
+              <TestimonialCard text="Kelasnya seru, fun, dan interaktif! Selalu ada kesempatan buat speaking dan tanya jawab, jadi makin percaya diri. Senang juga bisa dapat teman baru. Terima kasih, 90/100!" author="Muhammad Habib Haddad" role="Employee" />
+              <TestimonialCard text="Kelasnya seru banget dan bikin happy! Kakaknya baik dan cara ngajarnya menyenangkan. Aku jadi belajar banyak kosakata baru dan lebih percaya diri buat melatih kemampuan bahasa Inggrisku. Terima kasih, Kak!" author="Kautsar" role="Elementary Student" />
             </div>
           </div>
         </section>
@@ -360,9 +353,9 @@ export default function LandingPage() {
                 transition={{ duration: 1 }}
                 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4"
               >
-                Connect on Instagram
+                Terhubung di Instagram
               </motion.h2>
-              <p className="text-xl opacity-70 font-medium">Daily insights, class previews, and community highlights.</p>
+              <p className="text-xl opacity-70 font-medium">Insight harian, cuplikan kelas, dan sorotan komunitas.</p>
             </div>
             
             <motion.div 
@@ -390,25 +383,25 @@ export default function LandingPage() {
               transition={{ duration: 1 }}
               className="text-4xl md:text-6xl font-extrabold text-center tracking-tight mb-16"
             >
-              Clarity.
+              Kejelasan.
             </motion.h2>
             
             <div className="space-y-4">
               <FaqItem 
-                question="How is the methodology different?" 
-                answer="We eliminate passive, one-way lectures. Our ecosystem is entirely activity-driven, focusing on practical application using real-world tools." 
+                question="Apa yang membedakan metode kami?" 
+                answer="Kami menghilangkan metode pasif satu arah. Ekosistem kami digerakkan sepenuhnya oleh aktivitas, berfokus pada praktik langsung dengan skenario dunia nyata." 
               />
               <FaqItem 
-                question="What is the class format?" 
-                answer="Sessions are 100% online and scheduled after hours for flexibility. Each 60 to 90-minute class is hands-on, highly interactive, and designed for immediate skill acquisition." 
+                question="Bagaimana format kelasnya?" 
+                answer="100% online dengan jadwal fleksibel setelah jam kerja. Setiap sesi berdurasi 60-90 menit, sangat interaktif, dan dirancang untuk penguasaan skill instan." 
               />
               <FaqItem 
-                question="Who is this designed for?" 
-                answer="Genuine learners seeking tangible competency, not just certificates. Our classes are specifically tailored for students and professionals aiming to master professional discourse and build speaking confidence." 
+                question="Untuk siapa program ini dirancang?" 
+                answer="Untuk mereka yang mencari kompetensi nyata, bukan sekadar sertifikat. Kelas kami dirancang khusus bagi mahasiswa dan profesional yang ingin menguasai komunikasi bahasa Inggris dengan percaya diri." 
               />
               <FaqItem 
-                question="What are the pricing and access options?" 
-                answer="We operate on a modular structure. You can purchase a single session, a comprehensive 8-session bundle, or module-only access. Our model delivers a world-class experience at a 30% higher market efficiency." 
+                question="Bagaimana sistem harga dan aksesnya?" 
+                answer="Kami menggunakan struktur modular. Anda dapat membeli sesi satuan, paket lengkap 8 sesi, atau akses modul saja. Pengalaman berkelas dunia dengan harga yang 30% lebih terjangkau." 
               />
             </div>
           </div>
@@ -430,10 +423,10 @@ export default function LandingPage() {
                 </div>
                 
                 <h2 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 tracking-tight">
-                  Ready to navigate?
+                  Siap melangkah?
                 </h2>
                 <p className="text-2xl opacity-70 mb-10 max-w-xl mx-auto font-medium leading-relaxed text-brand-astronaut">
-                  Your professional competence awaits. Secure your slot today.
+                  Kompetensi profesional Anda menanti. Amankan slot Anda hari ini.
                 </p>
                 
                 <div className="flex flex-col items-center justify-center gap-6">
@@ -443,7 +436,7 @@ export default function LandingPage() {
                     rel="noopener noreferrer" 
                     className="group inline-flex items-center justify-center gap-3 bg-brand-astronaut text-white px-10 py-5 rounded-full text-xl font-bold hover:bg-[#002230] hover:-translate-y-1 transition-all duration-300 shadow-xl"
                   >
-                    Secure Your Slot <span className="group-hover:translate-x-2 transition-transform">→</span>
+                    Amankan Slot Anda <span className="group-hover:translate-x-2 transition-transform">→</span>
                   </a>
                   
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-orange/10 text-brand-orange rounded-full text-sm font-bold tracking-widest uppercase mt-4">
@@ -451,7 +444,7 @@ export default function LandingPage() {
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-orange opacity-75"></span>
                       <span className="relative inline-flex rounded-full h-3 w-3 bg-brand-orange"></span>
                     </span>
-                    Consult via WhatsApp
+                    Konsultasi via WhatsApp
                   </div>
                 </div>
               </div>
