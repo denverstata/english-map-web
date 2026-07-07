@@ -153,9 +153,9 @@ export default function LandingPage() {
               transition={{ duration: 1 }}
               className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05]"
             >
-              Mahir,<br />
+              Bahasa Inggris yang<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-[#ff6b6b]">
-                Lebih Cepat
+                Langsung Terpakai
               </span>
             </motion.h2>
             
@@ -228,7 +228,7 @@ export default function LandingPage() {
                   </div>
                   <h3 className="text-4xl font-extrabold mb-4 tracking-tight">#1 English for Undergraduate</h3>
                   <p className="text-lg opacity-80 mb-6 font-medium">
-                    Pembelajaran praktis yang dirancang khusus untuk mahasiswa. Kuasai kosakata kampus, tulis email akademik, dan tingkatkan kepercayaan diri dalam diskusi kelompok.
+                    Pembelajaran praktis yang dirancang khusus untuk mahasiswa. Kuasai kosakata, tulis email akademik, dan tingkatkan kepercayaan diri dalam diskusi forum.
                   </p>
                   <div className="inline-block px-4 py-2 bg-brand-orange/10 text-brand-orange border border-brand-orange/20 rounded-lg font-bold text-sm tracking-wide mb-6">Pengalaman premium, 30% lebih terjangkau dari layanan serupa.</div>
                   
@@ -251,14 +251,14 @@ export default function LandingPage() {
                       <div>
                         <strong className="text-brand-orange block mb-3 text-lg">Silabus:</strong> 
                         <ul className="space-y-2 list-disc list-outside ml-4 opacity-90 text-sm md:text-base leading-relaxed">
-                          <li><strong className="text-brand-orange">Penguasaan Kosakata:</strong> Aplikasi di pendidikan tinggi.</li>
-                          <li><strong className="text-brand-orange">Komunikasi Verbal:</strong> Diskusi dengan rekan & dosen.</li>
-                          <li><strong className="text-brand-orange">Non-Verbal:</strong> Etika digital & korespondensi.</li>
-                          <li><strong className="text-brand-orange">Resolusi Konflik:</strong> Kerangka kerja diplomatis.</li>
-                          <li><strong className="text-brand-orange">Diskusi Kelompok:</strong> Argumentasi berbasis data.</li>
-                          <li><strong className="text-brand-orange">Networking:</strong> Membangun relasi strategis.</li>
-                          <li><strong className="text-brand-orange">Integrasi Akademik:</strong> Sintesis identitas.</li>
-                          <li><strong className="text-brand-orange">Kelas Pakar:</strong> Studi kasus komprehensif.</li>
+                          <li><strong className="text-brand-orange">Terminology Mastery:</strong> Application in higher education.</li>
+                          <li><strong className="text-brand-orange">Verbal Communication:</strong> Discourse with peers & faculty.</li>
+                          <li><strong className="text-brand-orange">Non-Verbal:</strong> Digital ethics & correspondence.</li>
+                          <li><strong className="text-brand-orange">Conflict Resolution:</strong> Diplomatic frameworks.</li>
+                          <li><strong className="text-brand-orange">Group Discussion:</strong> Evidence-based argumentation.</li>
+                          <li><strong className="text-brand-orange">Networking:</strong> Strategic rapport-building.</li>
+                          <li><strong className="text-brand-orange">Academic Integration:</strong> Synthesis of identity.</li>
+                          <li><strong className="text-brand-orange">Expert Class:</strong> Comprehensive case studies.</li>
                         </ul>
                       </div>
                     </div>
@@ -284,7 +284,7 @@ export default function LandingPage() {
                   </div>
                   <h3 className="text-4xl font-extrabold mb-4 tracking-tight">Private Speaking Class</h3>
                   <p className="text-lg opacity-70 mb-6 font-medium">
-                    Pelatihan privat 1-on-1 bersama <a href="https://www.instagram.com/raihanaeka/" target="_blank" rel="noopener noreferrer" className="text-brand-orange hover:underline font-bold">@raihanaeka</a> untuk menghancurkan mental block Anda dan meningkatkan kefasihan secara drastis.
+                    Pelatihan privat 1-on-1 bersama <a href="https://www.instagram.com/raihanaeka/" target="_blank" rel="noopener noreferrer" className="text-brand-orange hover:underline font-bold">@raihanaeka</a> untuk menghancurkan mental block Anda dan meningkatkan kefasihan. Jadwal dapat disesuaikan dengan kebutuhan Anda.
                   </p>
                   
                   <div className="bg-black/5 rounded-2xl p-6 mb-8 border border-black/5 flex-1">
@@ -303,7 +303,7 @@ export default function LandingPage() {
                       
                       <div>
                         <strong className="text-brand-astronaut block mb-2 text-lg">Custom Silabus:</strong> 
-                        <p className="leading-relaxed">100% dapat disesuaikan dengan tujuan Anda. Fokus murni pada praktik berbicara intensif, umpan balik personal, dan membangun kepercayaan diri tanpa takut dihakimi.</p>
+                        <p className="leading-relaxed">100% dapat disesuaikan dengan tujuan Anda. Fokus murni pada praktik berbicara intensif, personalized feedback, dan membangun kepercayaan diri tanpa takut dihakimi.</p>
                       </div>
                     </div>
                   </div>
@@ -383,17 +383,17 @@ export default function LandingPage() {
               transition={{ duration: 1 }}
               className="text-4xl md:text-6xl font-extrabold text-center tracking-tight mb-16"
             >
-              Kejelasan.
+              FAQ
             </motion.h2>
             
             <div className="space-y-4">
               <FaqItem 
                 question="Apa yang membedakan metode kami?" 
-                answer="Kami menghilangkan metode pasif satu arah. Ekosistem kami digerakkan sepenuhnya oleh aktivitas, berfokus pada praktik langsung dengan skenario dunia nyata." 
+                answer="Kami menghilangkan metode pasif satu arah. Ekosistem kami berfokus pada praktik langsung dengan skenario dunia nyata." 
               />
               <FaqItem 
                 question="Bagaimana format kelasnya?" 
-                answer="100% online dengan jadwal fleksibel setelah jam kerja. Setiap sesi berdurasi 60-90 menit, sangat interaktif, dan dirancang untuk penguasaan skill instan." 
+                answer="100% online dengan jadwal fleksibel setelah jam kerja. Setiap sesi berdurasi 60-90 menit, sangat interaktif, dan dirancang untuk penguasaan skill secara praktis yang langsung bisa digunakan." 
               />
               <FaqItem 
                 question="Untuk siapa program ini dirancang?" 
@@ -401,7 +401,7 @@ export default function LandingPage() {
               />
               <FaqItem 
                 question="Bagaimana sistem harga dan aksesnya?" 
-                answer="Kami menggunakan struktur modular. Anda dapat membeli sesi satuan, paket lengkap 8 sesi, atau akses modul saja. Pengalaman berkelas dunia dengan harga yang 30% lebih terjangkau." 
+                answer="Kami menggunakan sistem yang fleksibel. Anda dapat membeli sesi satuan, paket lengkap 8 sesi, atau akses modul saja. Dapatkan pengalaman belajar world-class dengan harga yang 30% lebih terjangkau." 
               />
             </div>
           </div>
