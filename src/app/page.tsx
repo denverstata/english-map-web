@@ -228,7 +228,7 @@ export default function LandingPage() {
                   </div>
                   <h3 className="text-4xl font-extrabold mb-4 tracking-tight">#1 English for Undergraduate</h3>
                   <p className="text-lg opacity-80 mb-6 font-medium">
-                    Pembelajaran praktis yang dirancang khusus untuk mahasiswa. Kuasai kosakata, tulis email akademik, dan tingkatkan kepercayaan diri dalam diskusi forum.
+                    Tingkatkan competitiveness Anda untuk meraih international exposure (conference, exchange, beasiswa) melalui penguasaan advanced English communication skills di kelas kami.
                   </p>
                   <div className="inline-block px-4 py-2 bg-brand-orange/10 text-brand-orange border border-brand-orange/20 rounded-lg font-bold text-sm tracking-wide mb-6">Pengalaman premium, 30% lebih terjangkau dari layanan serupa.</div>
                   
